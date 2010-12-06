@@ -3,6 +3,8 @@ require "omg"
 
 class TestOmg < Test::Unit::TestCase
   def test_sanity
-    flunk "write tests or I will kneecap you"
+    assert_raises(RuntimeError) do
+      Omg.call_raise
+    end
   end
 end
