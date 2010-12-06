@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/omg
+lib/omg.rb
+test/test_omg.rb
